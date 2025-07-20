@@ -1,0 +1,32 @@
+.loader {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px solid black;
+    border-top: 20px solid green;
+    position: absolute;
+    top: 100px;
+    bottom: 100px;
+    left: 200px;
+    transition-property: all;
+    transition-duration: 1s;
+    animation:spinAnimate 3s ease-in 0s infinite normal;
+
+}
+@keyframes spinAnimate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+div:hover {
+    background-color: red;
+}
+div:active {
+    background-color:blue;
+}
+
+
+
