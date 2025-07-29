@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color:grey;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    height: 100vh;
+}
+.card {
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(pink,skyblue);
+    display: grid;
+    place-items: center;
+    border-radius: 5%;
+}
+.profile {
+    width: 150px;
+    height: 150px;
+    background-image: url(images.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    box-shadow: 0px 5px 4px black;
+}
+card button {
+    padding: 12px 25px;
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+h1 {
+    text-align: center;
+}
+p2 {
+    padding-left: 5px;
+    padding-right: 3px;
+}
